@@ -24,22 +24,27 @@ public class Main {
     }
 
     private static double metersToFeet(double meters) {
-        return meters * US_FOOT_METER;
+        return meters * METER_US_FOOT;
     }
 
     private static double metersToYards(double meters) {
-        return meters * US_YARD_METER;
+        return meters * METER_US_YARD;
     }
 
     private static double metersToMiles(double meters) {
-        return meters * US_MILE_METER;
+        return meters * METER_US_MILE;
     }
 
     public static void main(String[] args) {
+        System.out.printf("US customary to metric & back reference!\n");
+        System.out.printf("-----\n");
+
+        // metric to US customary
         System.out.printf("METERS PER FOOT: %fm\n", feetToMeters(1));
         System.out.printf("METERS PER YARD: %fm\n", yardsToMeters(1));
         System.out.printf("METERS PER MILE: %fm\n", milesToMeters(1));
 
+        // US customary to metric
         System.out.printf("FEET PER METER: %fm\n", metersToFeet(1));
         System.out.printf("YARDS PER METER: %fm\n", metersToYards(1));
         System.out.printf("MILES PER METER: %fm\n", metersToMiles(1));
