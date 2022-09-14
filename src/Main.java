@@ -36,10 +36,12 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        // metric to US customary
         System.out.printf("METERS PER FOOT: %fm\n", feetToMeters(1));
         System.out.printf("METERS PER YARD: %fm\n", yardsToMeters(1));
         System.out.printf("METERS PER MILE: %fm\n", milesToMeters(1));
 
+        // US customary to metric
         System.out.printf("FEET PER METER: %fm\n", metersToFeet(1));
         System.out.printf("YARDS PER METER: %fm\n", metersToYards(1));
         System.out.printf("MILES PER METER: %fm\n", metersToMiles(1));
