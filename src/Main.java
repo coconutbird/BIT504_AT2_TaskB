@@ -24,15 +24,15 @@ public class Main {
     }
 
     private static double metersToFeet(double meters) {
-        return meters * US_FOOT_METER;
+        return meters * METER_US_FOOT;
     }
 
     private static double metersToYards(double meters) {
-        return meters * US_YARD_METER;
+        return meters * METER_US_YARD;
     }
 
     private static double metersToMiles(double meters) {
-        return meters * US_MILE_METER;
+        return meters * METER_US_MILE;
     }
 
     public static void main(String[] args) {
