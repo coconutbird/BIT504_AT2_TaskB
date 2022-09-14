@@ -36,6 +36,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        System.out.printf("US customary to metric & back reference!\n");
+        System.out.printf("-----\n");
+
         // metric to US customary
         System.out.printf("METERS PER FOOT: %fm\n", feetToMeters(1));
         System.out.printf("METERS PER YARD: %fm\n", yardsToMeters(1));
